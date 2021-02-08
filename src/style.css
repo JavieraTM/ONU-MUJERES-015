@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background: #FAFAFA;
+}
+.login{
+    height: 666px;
+    width: 360px;
+    position: relative;
+}
+.welcome{
+    height: 666px;
+    width: 360px;
+    position: relative;
+}
+.register{
+    height: 666px;
+    width: 360px;
+    position: relative;
+}
+.login-after-register{
+    height: 666px;
+    width: 360px;
+    position: relative;
+}
+
+.tittle-welcome{
+    display: flex;
+    justify-content: right;
+    margin-top: 47px;
+    margin-left: 24px;
+    color: #1F3361;
+}
+
+.welcome-img{
+    margin-bottom: 20px;
+    background: #FAFAFA;
+}
+
+.translate-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 36.5px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1F3361;
+}
+
+/* .login{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+} */
+
+.flex-img{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-bottom: 48px;
+}
+
+.tittle-style {
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+    position: relative;
+    color: #1F3361;
+}
+
+h2{ /* Iniciar sesión, Registro */
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* .social-icons {
+    margin: 30px auto;
+    text-align: center;
+} 
+
+.social-icons img{
+    width: 35px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+} */
+
+.input-login{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 16px;
+    padding: 12px;
+    width: 312px;
+    height: 32px;
+    border: 0.5px solid #7B8794;
+    box-sizing: border-box;
+    border-radius: 48px;
+}
+select{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 16px;
+    padding: 7px;
+    width: 312px;
+    height: 32px;
+    border: 0.5px solid #7B8794;
+    box-sizing: border-box;
+    border-radius: 48px;
+    color: #7B8794;
+}
+
+option{
+    border: 0.5px solid #7B8794;
+    box-sizing: border-box;
+    border-radius: 48px;
+}
+
+.input-name{
+    margin-left: 24px;
+    margin-bottom: 16px;
+    padding: 12px;
+    height: 32px;
+    width: 144px;
+    border: 0.5px solid #7B8794;
+    box-sizing: border-box;
+    border-radius: 48px;
+}
+
+.name-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.checkbox-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 39px;
+    margin-bottom: 32px;
+    font-size: 12px;
+}
+
+.checkbox{
+    color: #4F4F4F;
+    margin:5px;
+}
+
+h4{ /*¿Has olvidado tu contraseña? */
+    display: flex;
+    justify-content: flex-end;
+    color: #1F3361;
+    font-size: 10px;
+    margin-right: 40px;
+    margin-bottom: 46px;
+    font-weight: 400;
+}
+
+h5{ /*¿No tienes cuenta? Regístrate */
+    color: #1F3361;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 32px;
+}
+
+h4{ /*terminos y condiciones*/
+    font-size: 10px;
+    margin: 24px;
+    font-weight: lighter;
+}
+
+.submit-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 143px;
+    height: 42px;
+    cursor: pointer;
+    margin: auto;
+    background: #DE7C88;
+    border: 0;
+    border-radius: 48px;
+    color: #ffffff;
+}
