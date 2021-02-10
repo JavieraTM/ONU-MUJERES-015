@@ -1,0 +1,26 @@
+{
+  "name": "onu-mujeres-015",
+  "version": "1.0.0",
+  "description": "Programa Tu Oportunidad   Cooperación Laboratoria - ONU Mujeres",
+  "main": "index.js",
+  "dependencies": {
+    "http-serve": "^1.0.1",
+    "jest": "^26.6.3",
+    "serve": "^11.3.2",
+    "start": "^5.1.0"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "serve ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/japamin/ONU-MUJERES-015.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/japamin/ONU-MUJERES-015/issues"
+  },
+  "homepage": "https://github.com/japamin/ONU-MUJERES-015#readme"
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#1F3361" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Oportunidad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="root">
+
+        <!-------------------- WELCOME SCREEN -------------------->
+        <div class="welcome" id="welcome-screen">
+            <div class="tittle-welcome">
+                <h2>Bienvenida</h2>
+            </div>
+            <div class="welcome-img">
+                <img src="img/background-welcome.png" alt="">
+            </div>
+            <div class="translate-flex">
+                <a>Kreyol</a>
+                <a>English</a>
+            </div>
+            <button type="submit" class="submit-btn" id="startButton">Entrar</button>
+        </div>
+
+        <!-------------------- LOGIN SCREEN -------------------->
+        <div class="login" id="login-screen">
+            <div class="flex-img">
+                <img src="img/logo_home.png" alt=""><img src="img/onu-mujeres-logo.png" alt="">
+            </div>
+            <div class="tittle-style">
+                <h2>Iniciar sesión</h2>
+            </div>
+            <div class="form-box">
+                <form id="login-after-register" class="input-group">
+                    <input type="text" class="input-login" placeholder="E-mail" requiered >
+                    <input type="password" class="input-login" placeholder="Contraseña" requiered>
+                    <h4>¿Has olvidado tu contraseña?</h4>
+                    <button type="submit" class="submit-btn" id="loginButton">Entrar</button>
+                    <h5>¿No tienes cuenta? Regístrate</h5>
+                </form>
+            </div>
+        </div>
+
+    
+        <!-------------------- REGISTER SCREEN -------------------->
+        <div class="register" id="register-screen">
+            <div class="flex-img">
+                <img src="img/logo_home.png" alt=""><img src="img/onu-mujeres-logo.png" alt="">
+            </div>
+            <div class="tittle-style">
+                <h2>Registro</h2>
+            </div>
+            <div class="form-box">
+                <form id="register" class="input-group">
+                    <div class="name-flex">
+                        <input type="text" class="input-name" placeholder="Nombre" requiered>
+                        <input type="text" class="input-name" placeholder="Apellido" requiered>
+                    </div>
+                    <select name="zona" id="zona">
+                        <option value="zona">Zona</option>
+                        <option value="sur">Zona Norte</option>
+                        <option value="centro">Zona Centro</option>
+                        <option value="sur">Zona Sur</option>
+                    </select>
+                    <select>
+                        <option value="region">Región</option>
+                        <option value="arica">Región de Arica y Parinacota</option>
+                        <option value="tarapaca">Región de Tarapacá</option>
+                        <option value="antofagasta">Región de Antofagasta</option>
+                        <option value="atacama">Región de Atacama</option>
+                        <option value="coquimbo">Región de Coquimbo</option>
+                        <option value="valparaiso">Región de Valparaíso</option>
+                        <option value="santiago">Región Metropolitana de Santiago</option>
+                        <option value="ohigins">Región del Libertador General Bernardo O’Higgins</option>
+                        <option value="maule">Región del Maule</option>
+                        <option value="ñuble">Región del Ñuble</option>
+                        <option value="biobio">Región del Biobío</option>
+                        <option value="araucania">Región de La Araucanía</option>
+                        <option value="rios">Región de Los Ríos</option>
+                        <option value="lagos">Región de Los Lagos</option>
+                        <option value="aysen">Región de Aysén del General Carlos Ibáñez del Campo</option>
+                        <option value="antártica">Región de Magallanes y la Antártica Chilena</option>
+                    </select>
+                    <input type="text" class="input-login" placeholder="E-mail" requiered>
+                    <input type="password" class="input-login" placeholder="Contraseña" requiered>
+                    <input type="password" class="input-login" placeholder="Repetir contraseña" requiered>
+                    <h4>Al clickear “Registrarme” aceptas nuestras Condiciones, la Política de datos y la Política de cookies.</h4>
+                    <button type="submit" class="submit-btn" id="registerButton">Registrarme</button>
+                </form>
+            </div>
+        </div>
+
+        <!-------------------- LOGIN AFTER REGISTER SCREEN -------------------->
+        <div class="login-after-register" id="second-login-screen">
+            <div class="flex-img">
+                <img src="img/logo_home.png" alt=""><img src="img/onu-mujeres-logo.png" alt="">
+            </div>
+            <div class="tittle-style">
+                <h2>Iniciar sesión</h2>
+            </div>
+            <div class="form-box">
+                <form id="login-after-register" class="input-group">
+                    <input type="text" class="input-login" placeholder="E-mail" requiered >
+                    <input type="password" class="input-login" placeholder="Contraseña" requiered>
+                    <div class="checkbox-flex">
+                        <label for="checkbox" class="checkbox">Mantener la sesión iniciada</label>
+                        <input type="checkbox" class="checkbox">
+                    </div>
+                    <h6>¿Has olvidado tu contraseña?</h6>
+                    <button type="submit" class="submit-btn" id="enterButton">Entrar</button>
+                </form>
+            </div>
+        </div>
+
+                
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
