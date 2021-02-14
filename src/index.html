@@ -46,115 +46,31 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 /* ]]> */
 </script>
 
+
     <script src="main.js" type="module"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyCOI8D1lntUoJBpiq8HhlqlNUuieZiJ_mE",
+        authDomain: "onu-mujeres-015.firebaseapp.com",
+        projectId: "onu-mujeres-015",
+        storageBucket: "onu-mujeres-015.appspot.com",
+        messagingSenderId: "810553239978",
+        appId: "1:810553239978:web:71684569badd098095e3d3",
+        measurementId: "G-WK3CWM8FY9"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-------------------- LOGIN SCREEN -------------------->
-        <!-- <div class="login" id="login-screen">
-            <div class="flex-img">
-                <img src="img/logo_home.png" alt=""><img src="img/onu-mujeres-logo.png" alt="">
-            </div>
-            <div class="tittle-style">
-                <h2>Iniciar sesión</h2>
-            </div>
-            <div class="form-box">
-                <form id="login-after-register" class="input-group">
-                    <input type="text" class="input-login" placeholder="E-mail" requiered >
-                    <input type="password" class="input-login" placeholder="Contraseña" requiered>
-                    <h4>¿Has olvidado tu contraseña?</h4>
-                    <button type="submit" class="submit-btn" id="loginButton">Entrar</button>
-                    <h5>¿No tienes cuenta? Regístrate</h5>
-                </form>
-            </div>
-        </div> -->
-
-    
-        <!-------------------- REGISTER SCREEN -------------------->
-        <!-- <div class="register" id="register-screen">
-            <div class="flex-img">
-                <img src="img/logo_home.png" alt=""><img src="img/onu-mujeres-logo.png" alt="">
-            </div>
-            <div class="tittle-style">
-                <h2>Registro</h2>
-            </div>
-            <div class="form-box">
-                <form id="register" class="input-group">
-                    <div class="name-flex">
-                        <input type="text" class="input-name" placeholder="Nombre" requiered>
-                        <input type="text" class="input-name" placeholder="Apellido" requiered>
-                    </div>
-                    <select name="zona" id="zona">
-                        <option value="zona">Zona</option>
-                        <option value="sur">Zona Norte</option>
-                        <option value="centro">Zona Centro</option>
-                        <option value="sur">Zona Sur</option>
-                    </select>
-                    <select>
-                        <option value="region">Región</option>
-                        <option value="arica">Región de Arica y Parinacota</option>
-                        <option value="tarapaca">Región de Tarapacá</option>
-                        <option value="antofagasta">Región de Antofagasta</option>
-                        <option value="atacama">Región de Atacama</option>
-                        <option value="coquimbo">Región de Coquimbo</option>
-                        <option value="valparaiso">Región de Valparaíso</option>
-                        <option value="santiago">Región Metropolitana de Santiago</option>
-                        <option value="ohigins">Región del Libertador General Bernardo O’Higgins</option>
-                        <option value="maule">Región del Maule</option>
-                        <option value="ñuble">Región del Ñuble</option>
-                        <option value="biobio">Región del Biobío</option>
-                        <option value="araucania">Región de La Araucanía</option>
-                        <option value="rios">Región de Los Ríos</option>
-                        <option value="lagos">Región de Los Lagos</option>
-                        <option value="aysen">Región de Aysén del General Carlos Ibáñez del Campo</option>
-                        <option value="antártica">Región de Magallanes y la Antártica Chilena</option>
-                    </select>
-                    <input type="text" class="input-login" placeholder="E-mail" requiered>
-                    <input type="password" class="input-login" placeholder="Contraseña" requiered>
-                    <input type="password" class="input-login" placeholder="Repetir contraseña" requiered>
-                    <h4>Al clickear “Registrarme” aceptas nuestras Condiciones, la Política de datos y la Política de cookies.</h4>
-                    <button type="submit" class="submit-btn" id="registerButton">Registrarme</button>
-                </form>
-            </div>
-        </div> -->
-
-        <!-------------------- LOGIN AFTER REGISTER SCREEN -------------------->
-        <!-- <div class="login-after-register" id="second-login-screen">
-            <div class="flex-img">
-                <img src="img/logo_home.png" alt=""><img src="img/onu-mujeres-logo.png" alt="">
-            </div>
-            <div class="tittle-style">
-                <h2>Iniciar sesión</h2>
-            </div>
-            <div class="form-box">
-                <form id="login-after-register" class="input-group">
-                    <input type="text" class="input-login" placeholder="E-mail" requiered >
-                    <input type="password" class="input-login" placeholder="Contraseña" requiered>
-                    <div class="checkbox-flex">
-                        <label for="checkbox" class="checkbox">Mantener la sesión iniciada</label>
-                        <input type="checkbox" class="checkbox">
-                    </div>
-                    <h6>¿Has olvidado tu contraseña?</h6>
-                    <button type="submit" class="submit-btn" id="enterButton">Entrar</button>
-                </form>
-            </div>
-        </div> -->
-
-              

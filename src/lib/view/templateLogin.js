@@ -13,14 +13,16 @@ export const login = () => {
                 <form id="login-after-register" class="input-group">
                     <input type="text" class="input-login" placeholder="E-mail" requiered >
                     <input type="password" class="input-login" placeholder="Contraseña" requiered>
-                    <h4>¿Has olvidado tu contraseña?</h4>
                     <button type="submit" class="submit-btn" id="loginButton">Entrar</button>
-                    <h5>¿No tienes cuenta? Regístrate</h5>
                 </form>
             </div>
         </div>
     `;
   divLogin.innerHTML = viewLogin;
+  const loginBtn = divLogin.querySelector('#loginButton');
+  loginBtn.addEventListener('click', () => {
+    window.location.hash = 'zona';
+  });
 
   return divLogin;
 };
