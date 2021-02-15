@@ -15,6 +15,25 @@ export const zona = () => {
         <option value="centro">Zona Centro</option>
         <option value="sur">Zona Sur</option>
     </select>
+    <select>
+      <option value="region">Región</option>
+      <option value="arica">Región de Arica y Parinacota</option>
+      <option value="tarapaca">Región de Tarapacá</option>
+      <option value="antofagasta">Región de Antofagasta</option>
+      <option value="atacama">Región de Atacama</option>
+      <option value="coquimbo">Región de Coquimbo</option>
+      <option value="valparaiso">Región de Valparaíso</option>
+      <option value="santiago">Región Metropolitana de Santiago</option>
+      <option value="ohigins">Región del Libertador General Bernardo O’Higgins</option>
+      <option value="maule">Región del Maule</option>
+      <option value="ñuble">Región del Ñuble</option>
+      <option value="biobio">Región del Biobío</option>
+      <option value="araucania">Región de La Araucanía</option>
+      <option value="rios">Región de Los Ríos</option>
+      <option value="lagos">Región de Los Lagos</option>
+      <option value="aysen">Región de Aysén del General Carlos Ibáñez del Campo</option>
+      <option value="antártica">Región de Magallanes y la Antártica Chilena</option>
+    </select>
     <button type="submit" value="next" class="submit-btn" id="zonaButton">Continuar</button>
     </div>
 </div>

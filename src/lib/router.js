@@ -8,31 +8,27 @@ import { tutorialDA } from './view/templateDirectAcces.js';
 const showTemplate = (hash) => {
   const containerRoot = document.getElementById('root');
   containerRoot.innerHTML = '';
-  containerRoot.appendChild(welcome());
 
   switch (hash) {
+    case '':
+      containerRoot.appendChild(welcome());
+      break;
     case '#login':
-      containerRoot.innerHTML = '';
       containerRoot.appendChild(login());
       break;
     case '#zona':
-      containerRoot.innerHTML = '';
       containerRoot.appendChild(zona());
       break;
     case '#tutorialDA':
-      containerRoot.innerHTML = '';
       containerRoot.appendChild(tutorialDA());
       break;
     case '#tutorial':
-      containerRoot.innerHTML = '';
       containerRoot.appendChild(tutorial());
       break;
     case '#channels':
-      containerRoot.innerHTML = '';
       containerRoot.appendChild(channels());
       break;
     default:
-      containerRoot.innerHTML = '';
       containerRoot.innerHTML = `
       <h2>No existe :(</h2>
           `;
