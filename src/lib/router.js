@@ -3,6 +3,7 @@ import { login } from './view/templateLogin.js';
 import { zona } from './view/templateZona.js';
 import { tutorial } from './view/templateTutorial.js';
 import { channels } from './view/templateChannels.js';
+import { tutorialDA } from './view/templateDirectAcces.js';
 
 const showTemplate = (hash) => {
   const containerRoot = document.getElementById('root');
@@ -17,6 +18,10 @@ const showTemplate = (hash) => {
     case '#zona':
       containerRoot.innerHTML = '';
       containerRoot.appendChild(zona());
+      break;
+    case '#tutorialDA':
+      containerRoot.innerHTML = '';
+      containerRoot.appendChild(tutorialDA());
       break;
     case '#tutorial':
       containerRoot.innerHTML = '';
@@ -42,6 +47,9 @@ export const changeRoute = (hash) => {
     return showTemplate(hash);
   }
   if (hash === '#zona') {
+    return showTemplate(hash);
+  }
+  if (hash === '#tutorialDA') {
     return showTemplate(hash);
   }
   if (hash === '#tutorial') {

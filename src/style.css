@@ -11,6 +11,9 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .login{
@@ -19,30 +22,34 @@
     position: relative;
 }
 
-.tittle-welcome{
+h1{
+    font-size: 18px;
     display: flex;
-    justify-content: right;
-    margin-top: 47px;
-    margin-left: 24px;
+    justify-content: center;
+    margin: 47px;
     color: #1F3361;
 }
 
-.welcome-img{
-    margin-bottom: 20px;
+.tutorialImg{
     display: flex;
     justify-content: center;
 }
 
-.translate-flex{
+.directAccess{
+    color: #000;
+    font-size: 14px;
+}
+
+.tittleDA{
+    color: #1f3361;
+    font-size: 14px;
+}
+
+.welcome-img{
+    margin-top: 64px;
+    margin-bottom: 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 64px;
-    margin-right: 64px;
-    margin-bottom: 36.5px;
-    font-size: 12px;
-    font-weight: 700;
-    color: #1F3361;
+    justify-content: center;
 }
 
 .flex-img{
