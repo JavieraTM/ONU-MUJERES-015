@@ -1,9 +1,9 @@
 import { welcome } from './view/templateWelcome.js';
 import { login } from './view/templateLogin.js';
-import { zona } from './view/templateZona.js';
+import { profile } from './view/templateProfile.js';
 import { tutorial } from './view/templateTutorial.js';
-import { channels } from './view/templateChannels.js';
-import { tutorialDA } from './view/templateDirectAcces.js';
+import { community } from './view/templateCommunity.js';
+import { tutorialDA } from './view/templateDirectAccess.js';
 
 const showTemplate = (hash) => {
   const containerRoot = document.getElementById('root');
@@ -16,8 +16,8 @@ const showTemplate = (hash) => {
     case '#login':
       containerRoot.appendChild(login());
       break;
-    case '#zona':
-      containerRoot.appendChild(zona());
+    case '#profile':
+      containerRoot.appendChild(profile());
       break;
     case '#tutorialDA':
       containerRoot.appendChild(tutorialDA());
@@ -25,8 +25,8 @@ const showTemplate = (hash) => {
     case '#tutorial':
       containerRoot.appendChild(tutorial());
       break;
-    case '#channels':
-      containerRoot.appendChild(channels());
+    case '#community':
+      containerRoot.appendChild(community());
       break;
     default:
       containerRoot.innerHTML = `
@@ -42,13 +42,16 @@ export const changeRoute = (hash) => {
   if (hash === '#login') {
     return showTemplate(hash);
   }
-  if (hash === '#zona') {
+  if (hash === '#profile') {
     return showTemplate(hash);
   }
   if (hash === '#tutorialDA') {
     return showTemplate(hash);
   }
   if (hash === '#tutorial') {
+    return showTemplate(hash);
+  }
+  if (hash === '#community') {
     return showTemplate(hash);
   }
   return showTemplate(hash);

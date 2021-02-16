@@ -18,7 +18,7 @@ export const tutorial = () => {
   divTutorial.innerHTML = viewTutorial;
   const tutorialBtn = divTutorial.querySelector('#tutorialButton');
   tutorialBtn.addEventListener('click', () => {
-    window.location.hash = '';
+    window.location.hash = 'community';
   });
   return divTutorial;
 };

@@ -17,7 +17,6 @@ export const tutorialDA = () => {
       </div>
           `;
   divTutorialDA.innerHTML = viewTutorialDA;
-  divTutorialDA.innerHTML = viewTutorialDA;
   const tutorialDABtn = divTutorialDA.querySelector('#tutorialDAButton');
   tutorialDABtn.addEventListener('click', () => {
     window.location.hash = 'tutorial';
