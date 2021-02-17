@@ -11,8 +11,8 @@ export const login = () => {
       </div>
       <div class="form-box">
         <form id="login-after-register" class="input-group">
-          <input type="text" class="input-login" placeholder="E-mail" requiered >
-          <input type="password" class="input-login" placeholder="Contraseña" requiered>
+          <input type="text" id="email" class="input-login" placeholder="Usuaria" requiered >
+          <input type="password" id="password" class="input-login" placeholder="Contraseña" requiered>
           <button type="submit" class="submit-btn" id="loginButton">Entrar</button>
         </form>
       </div>

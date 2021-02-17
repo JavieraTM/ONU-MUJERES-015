@@ -5,7 +5,7 @@
 }
 .welcome{
     background: url(img/background-welcome.png);
-    height: 640px;
+    height: 550px;
     width: 360px;
     background-position: center;
     background-size: cover;
@@ -16,7 +16,7 @@
 }
 
 .login{
-    height: 640px;
+    height: 550px;
     width: 360px;
     position: relative;
 }
@@ -67,9 +67,11 @@ h1{
     color: #1F3361;
 }
 
-h2{ /* Iniciar sesión, Registro */
+h2{ /* Iniciar sesión*/
     font-size: 18px;
     font-weight: 700;
+    margin-top: 98px;
+    margin-bottom: 30px;
 }
 
 .input-login, .input-description{

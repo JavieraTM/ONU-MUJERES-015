@@ -36,6 +36,7 @@
     "node": ">=10"
   },
   "dependencies": {
-    "firebase": "^8.2.7"
+    "firebase": "^8.2.7",
+    "firebase-admin": "^9.5.0"
   }
 }
